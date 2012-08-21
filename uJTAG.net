@@ -1,0 +1,288 @@
+# EESchema Netlist Version 1.1 created  Sun 19 Aug 2012 07:49:23 PM PET
+(
+ ( /50315AB1 c_0805 C1 4u7
+  ( 1 GND )
+  ( 2 N-000031 )
+ )
+ ( /50315AAE c_0805 C2 100n
+  ( 1 GND )
+  ( 2 N-000031 )
+ )
+ ( /50315A6C c_0805 C3 100n
+  ( 1 GND )
+  ( 2 3V3 )
+ )
+ ( /50315AC7 c_0805 C4 4u7
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /50315A69 c_0805 C5 100n
+  ( 1 GND )
+  ( 2 3V3 )
+ )
+ ( /50315AC5 c_0805 C6 100n
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /50315A61 c_0805 C7 100n
+  ( 1 GND )
+  ( 2 3V3 )
+ )
+ ( /503159F2 c_0805 C8 100n
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /503159B6 c_0805 C9 100n
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /503159B1 c_0805 C10 100n
+  ( 1 N-000023 )
+  ( 2 GND )
+ )
+ ( /50315950 c_0805 C11 22p
+  ( 1 N-000026 )
+  ( 2 GND )
+ )
+ ( /50315977 c_0805 C12 22p
+  ( 1 N-000030 )
+  ( 2 GND )
+ )
+ ( /50317719 c_0805 C13 1u
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50317716 c_0805 C14 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50317731 c_0805 C15 10n
+  ( 1 N-000032 )
+  ( 2 GND )
+ )
+ ( /50317734 c_0805 C16 100n
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /50317738 c_0805 C17 1u
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /50317882 r_0805 D1 LED
+  ( 1 3V3 )
+  ( 2 N-000035 )
+ )
+ ( /50317782 sod323 D2 BAT60J
+  ( 1 3V3 )
+  ( 2 N-000036 )
+ )
+ ( /50315ADF r_0805 FB1 FILTER
+  ( 1 3V3 )
+  ( 2 N-000031 )
+ )
+ ( /50315AD5 r_0805 FB2 FILTER
+  ( 1 3V3 )
+  ( 2 N-000017 )
+ )
+ ( /50316161 conn_usb_mini_th J1 USB_3
+  ( 1 +5V )
+  ( 2 /D+ )
+  ( 3 /D- )
+  ( 4 ? )
+  ( 5 GND )
+ )
+ ( /50315CB1 oshw_silkscreen_4 LOGO1 OPEN_HARDWARE_2
+ )
+ ( /503178EF pin_strip_6 P1 CONN_6
+  ( 1 /TMS )
+  ( 2 /TDI )
+  ( 3 /TDO )
+  ( 4 /TCK )
+  ( 5 GND )
+  ( 6 N-000036 )
+ )
+ ( /50315988 r_0805 R1 12k
+  ( 1 N-000027 )
+  ( 2 GND )
+ )
+ ( /50317885 r_0805 R2 270
+  ( 1 N-000035 )
+  ( 2 GND )
+ )
+ ( /50315913 LQFP-48 U1 FT232H
+  ( 1 N-000026 )
+  ( 2 N-000030 )
+  ( 3 N-000017 )
+  ( 4 GND )
+  ( 5 N-000027 )
+  ( 6 /D- )
+  ( 7 /D+ )
+  ( 8 N-000031 )
+  ( 9 GND )
+  ( 10 GND )
+  ( 11 GND )
+  ( 12 3V3 )
+  ( 13 /TCK )
+  ( 14 /TDI )
+  ( 15 /TDO )
+  ( 16 /TMS )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 GND )
+  ( 23 GND )
+  ( 24 3V3 )
+  ( 25 ? )
+  ( 26 3V3 )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 3V3 )
+  ( 35 GND )
+  ( 36 GND )
+  ( 37 N-000023 )
+  ( 38 3V3 )
+  ( 39 3V3 )
+  ( 40 3V3 )
+  ( 41 GND )
+  ( 42 GND )
+  ( 43 ? )
+  ( 44 ? )
+  ( 45 ? )
+  ( 47 GND )
+  ( 48 GND )
+ )
+ ( /5031770A sot23-5 U2 LD3985M
+  ( 1 +5V )
+  ( 2 GND )
+  ( 3 +5V )
+  ( 4 N-000032 )
+  ( 5 3V3 )
+ )
+ ( /50315932 hc-49s X1 CRYSTAL
+  ( 1 N-000030 )
+  ( 2 N-000026 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
