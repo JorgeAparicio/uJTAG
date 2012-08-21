@@ -1,7 +1,7 @@
 DESCRIPTION
 ===========
 
-F4Dev is a small (3x2 cm) and minimalistic JTAG dongle. It provides a 6 pin
+uJTAG is a small (3x2 cm) and minimalistic JTAG dongle. It provides a 6 pin
 JTAG connector, pinout is shown below:
 
   TMS: Test Mode Select
@@ -11,7 +11,7 @@ JTAG connector, pinout is shown below:
   GND: Ground
   VDD: 3.3V output (150 mA + series diode)
 
-There is no hardware reset signal, reset should be issued by software.
+There is no reset signal, reset should be issued by software.
 
 This JTAG dongle has been tested with STM32 microcontrollers and openOCD.
 
@@ -31,10 +31,10 @@ https://github.com/JorgeAparicio/libKiCad
 These libraries and this work must be in the same path, as shown below:
 
   <someFolder>
-    F4Dev
-      F4Dev.pro
-      F4Dev.sch
-      F4Dev.brd
+    uJTAG
+      uJTAG.pro
+      uJTAG.sch
+      uJTAG.brd
       ...
     libKiCad
       3d
